@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**.aux": true,
+			"**.bbl": true,
+			"**.bcf": true,
+			"**.blg": true,
+			"**.fdb_latexmk": true,
+			"**.fls": true,
+			"**.log": true,
+			"**.png.aux": true,
+			"**.run.xml": true,
+			"**.synctex.gz": true,
+			"**/.DS_Store": true,
+			"**/.git": true,
+			"**/.hg": true,
+			"**/.svn": true,
+			"**/CVS": true,
+			"**/Thumbs.db": true
+		}
+	}
+}
