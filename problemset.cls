@@ -20,7 +20,7 @@
 
 \renewcommand{\maketitle}{%
 \begin{center}
-    \bf{\LARGE{\MakeUppercase{\@course}~~~~ \@assignment}}\\
+    {\bf{\LARGE{\MakeUppercase{\@course}~~~~ \@assignment}}}\\
     \vskip .1in
     \@date\\
     \vskip .1in
