@@ -29,6 +29,15 @@
 }
 \AtBeginDocument{\maketitle}
 
+\newcounter{problems}
+\setcounter{problems}{1}
+\newenvironment{problem}[1][\arabic{problems}\stepcounter{problems}]{
+    \newline {\bf Problem #1.\hskip \labelsep}
+}{}
+
+\newenvironment{answer}[0]{
+    \newline {\emph Answer. }
+}{}
 
 
 
