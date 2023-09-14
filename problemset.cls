@@ -1,10 +1,9 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{problemset}[2023/09/13 Problem Set]
-
+\RequirePackage{myutils}
 \RequirePackage{amsmath}
 \RequirePackage{amssymb}
 \RequirePackage{amsthm}
-
 
 \LoadClassWithOptions{article}
 
@@ -38,3 +37,4 @@
     % - problems should have optional "date assigned" field or a generic note
     % - Optional ability to write out problem statement or just answer it
 % Graded vs ungraded sections
+% header for multipage
