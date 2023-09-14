@@ -35,7 +35,7 @@
     \newline {\bf Problem #1.\hskip \labelsep}
 }{}
 
-\newenvironment{answer}[0]{
+\newenvironment{answer}[0]{ % redo as newtheoremstyle
     \newline {\emph Answer. }
 }{}
 
