@@ -29,21 +29,15 @@
 }
 \AtBeginDocument{\maketitle}
 
-\newcounter{problems}
-\setcounter{problems}{1}
-\newenvironment{problem}[1][\arabic{problems}\stepcounter{problems}]{
-    \newline {\bf Problem #1.\hskip \labelsep}
-}{}
+\theoremstyle{plain}
+\newtheorem*{answer}{Answer}
 
-\newenvironment{answer}[0]{ % redo as newtheoremstyle
-    \newline {\emph Answer. }
-}{}
+\theoremstyle{definition}
+\newtheorem{problem}{Problem}
 
 
 
 % % Still needed:
 % Commands for problems and subproblems with custom enumeration
-    % - problems should have optional "date assigned" field or a generic note
-    % - Optional ability to write out problem statement or just answer it
-% Graded vs ungraded sections
 % header for multipage
+% thm environment for cases, numbered and unnumbered.
