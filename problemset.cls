@@ -29,6 +29,7 @@
 }
 \AtBeginDocument{\maketitle}
 
+% Theorem environments
 \theoremstyle{plain}
 \newtheorem{answer}{Answer}
 \newtheorem*{answer*}{Answer}

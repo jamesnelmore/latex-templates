@@ -5,6 +5,7 @@
 \RequirePackage{amssymb}
 \RequirePackage{amsthm}
 \RequirePackage{color, soul}
+\RequirePackage{framed}
 
 \newcommand{\N}{\mathbb{N}}
 \newcommand{\Z}{\mathbb{Z}}
@@ -17,5 +18,17 @@
 
 \newcommand{\todo}[2][\$]{\hl{#1} \marginpar{#2}}
 
+% Todo Placeholder
+\newenvironment{placeholder}[1][Placeholder]{%
+    \begin{framed}
+        \begin{center}
+            {{\bf #1\\}} 
+        \end{center}
+}{%
+    \end{framed}}
+
 % better \todo using marginpar and highlughting that can be broken off into custom package
+
+% make an inline placeholder command
+
 % make a shorter \cdot command
