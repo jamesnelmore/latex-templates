@@ -30,14 +30,17 @@
 \AtBeginDocument{\maketitle}
 
 \theoremstyle{plain}
-\newtheorem*{answer}{Answer}
+\newtheorem{answer}{Answer}
+\newtheorem*{answer*}{Answer}
+\newtheorem{case}{Case}
+\newtheorem*{case*}{Case}
 
 \theoremstyle{definition}
 \newtheorem{problem}{Problem}
 
 
 
+
 % % Still needed:
 % Commands for problems and subproblems with custom enumeration
 % header for multipage
-% thm environment for cases, numbered and unnumbered.
