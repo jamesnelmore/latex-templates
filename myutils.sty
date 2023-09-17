@@ -19,12 +19,12 @@
 
 % Placeholder
 \newenvironment{placeholder}[1][Placeholder]{%
-    \begin{frame}[#1]
+    \begin{framed}
         \begin{center}
             {{\bf #1\\}} 
         \end{center}
 }{%
-    \end{frame}
+    \end{framed}
 } % use title-frame environment if possible
 % Section Outline
 \newenvironment{outline}[1][outline]{%
@@ -32,11 +32,13 @@
     \begin{center}
         {{\bf #1}}
     \end{center}
+}{%
 \end{framed}
-} 
+}
 % make section placeholder/progress command where each \item is its own placeholder box with no header text. Sections should have status that corresponds to the box's color
 % reduce margin spacing
 % use title-frame
+% build a todo list function of the section outline
 
 % better \todo using marginpar and highlughting that can be broken off into custom package
 
