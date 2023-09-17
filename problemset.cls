@@ -41,7 +41,3 @@
 
 
 
-
-% % Still needed:
-% Commands for problems and subproblems with custom enumeration
-% header for multipage
