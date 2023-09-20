@@ -30,9 +30,9 @@
 \AtBeginDocument{\maketitle}
 
 % Theorem environments
-\theoremstyle{plain}
-\newtheorem{answer}{Answer}
-\newtheorem*{answer*}{Answer}
+% \newtheorem{answer}{Answer}
+% \newtheorem*{answer*}{Answer}
+% \newenvironment{answer}{\begin{proof}[Answer.]}{\end{proof}}
 \newtheorem{case}{Case}
 \newtheorem*{case*}{Case}
 
