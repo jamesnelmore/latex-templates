@@ -29,10 +29,10 @@
 }
 \AtBeginDocument{\maketitle}
 
-% Theorem environments
-% \newtheorem{answer}{Answer}
-% \newtheorem*{answer*}{Answer}
+\newtheorem{lemma}{Lemma}
+\newtheorem*{lemma*}{Lemma}
 \newenvironment{answer}[1][Answer]{\begin{proof}[#1]}{\end{proof}}
+
 \newtheorem{case}{Case}
 \newtheorem*{case*}{Case}
 
