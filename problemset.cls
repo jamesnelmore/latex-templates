@@ -31,6 +31,10 @@
 
 \newtheorem{lemma}{Lemma}
 \newtheorem*{lemma*}{Lemma}
+\newtheorem{corollary}{Corollary}
+\newtheorem*{corollary*}{Corollary}
+\newtheorem{answerstatement}{Answer}
+\newtheorem*{answerstatement*}{Answer}
 \newenvironment{answer}[1][Answer]{\begin{proof}[#1]}{\end{proof}}
 
 \newtheorem{case}{Case}
@@ -38,6 +42,7 @@
 
 \theoremstyle{definition}
 \newtheorem{problem}{Problem}
+\newtheorem*{problem*}{Problem}
 
 
 
