@@ -4,6 +4,7 @@
 \RequirePackage{amsmath}
 \RequirePackage{amssymb}
 \RequirePackage{amsthm}
+\RequirePackage{enumitem}
 
 \LoadClassWithOptions{article}
 
