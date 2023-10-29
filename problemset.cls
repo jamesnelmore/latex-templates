@@ -4,7 +4,6 @@
 \RequirePackage{amsmath}
 \RequirePackage{amssymb}
 \RequirePackage{amsthm}
-\RequirePackage{enumitem}
 
 \LoadClassWithOptions{article}
 
@@ -36,7 +35,7 @@
 \newtheorem*{corollary*}{Corollary}
 \newtheorem{answerstatement}{Answer}
 \newtheorem*{answerstatement*}{Answer}
-\newenvironment{answer}[1][Answer]{\begin{proof}[#1]}{\end{proof}}
+\newenvironment{answer}[1][]{\begin{proof}[\textup{#1} Answer]}{\end{proof}}
 
 \newtheorem{case}{Case}
 \newtheorem*{case*}{Case}
