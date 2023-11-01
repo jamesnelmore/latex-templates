@@ -43,6 +43,3 @@
 \theoremstyle{definition}
 \newtheorem{problem}{Problem}
 \newtheorem*{problem*}{Problem}
-
-
-
