@@ -7,6 +7,7 @@
 
 \LoadClassWithOptions{article}
 
+
 \renewcommand{\normalsize}{\fontsize{11pt}{12pt}\selectfont}
 \setlength{\textwidth}{8in}
 \setlength{\textheight}{8in}
@@ -28,6 +29,8 @@
 \end{center}
 }
 \AtBeginDocument{\maketitle}
+
+\setlength\parindent{0pt}
 
 \newtheorem{lemma}{Lemma}
 \newtheorem*{lemma*}{Lemma}
