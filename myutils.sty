@@ -3,6 +3,7 @@
 
 \RequirePackage{amsmath}
 \RequirePackage{amssymb}
+\RequirePackage{amsthm}
 \RequirePackage{color, soul}
 \RequirePackage{framed}
 \RequirePackage{cancel}
@@ -43,4 +44,16 @@
     \end{center}
 }{%
 \end{framed}
+}
+
+% Box theorem
+\newtheorem*{thm}{Theorem}
+
+\newenvironment{bthm}[1][]{%
+    \begin{framed}
+        \begin{thm}[#1]
+    
+}{%
+        \end{thm}
+    \end{framed}
 }
