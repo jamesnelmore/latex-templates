@@ -21,7 +21,9 @@
 
 \renewcommand{\maketitle}{%
 \begin{center}
-    {\bf{\LARGE{\MakeUppercase{\@course}~~~~ \@assignment}}}\\
+    \textbf{\LARGE{\@assignment}}\\
+    \vskip .1in
+    \textbf{\Large{\MakeUppercase{\@course}}}\\
     \vskip .1in
     \@date\\
     \vskip .1in
